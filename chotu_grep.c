@@ -39,8 +39,8 @@ int main(int argc, char *argv[]){
 }
 
 /// @brief Searches for the pattern in the given file
-/// @param filename - Name of the file
-/// @param pattern - Pattern you want to search
+/// @param filename Name of the file
+/// @param pattern Pattern you want to search
 /// @return 0 on success, non-zero on error 
 int search(char *filename, char *pattern){
     char line[MAX_LEN];
